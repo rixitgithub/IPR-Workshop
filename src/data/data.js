@@ -144,7 +144,7 @@ export const mainCoordinators = [
     name: "Dr. Amrish Dubey",
     imgSrc: "/media/coordinators/.jpg",
     roles: ["Assistant Professor", " Faculty Advisor"],
-  },
+  }
   
 ];
 
