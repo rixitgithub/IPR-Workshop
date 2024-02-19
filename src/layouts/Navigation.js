@@ -37,7 +37,7 @@ const Navigation = ({ user }) => {
     <header>
       <nav className={styles.nav} id="nav">
         <div className={styles.logo}>
-          <NavLink to={"/"}>RGIPT-IPO</NavLink>
+          <NavLink to={"/"}>RGIPT-IPR</NavLink>
         </div>
         <div className={cx(styles["router-links"], styles.desktop)}>
           {links
