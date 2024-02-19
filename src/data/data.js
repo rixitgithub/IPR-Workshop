@@ -5,9 +5,6 @@ export const coordinators = [
     name: "Dr. Amrish Dubey",
   },
   {
-    name: "Dr. Ankur Pandey",
-  },
-  {
     name: "Rishit Tiwari",
   },
   {
@@ -148,11 +145,7 @@ export const mainCoordinators = [
     imgSrc: "/media/coordinators/.jpg",
     roles: ["Assistant Professor", " Faculty Advisor"],
   },
-  {
-    name: "Dr Ankur Pandey",
-    imgSrc: "/media/coordinators/.jpg",
-    roles: ["Assistant Professor", " Faculty Advisor"],
-  },
+  
 ];
 
 export const highlights = ["1", "2", "8", "11", "14", "16"];
