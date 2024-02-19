@@ -4,11 +4,11 @@ import cx from "classnames";
 import { events } from "../data/data";
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
-import qr from "../media/qr.png";
+import benefit from "../media/benefit (1).png";
 import SupportLink from "../components/SupportLink";
 import { ReactComponent as LinkIcon } from "../media/icons/link.svg";
 
-const Register = () => {
+const Benefits = () => {
   return (
     <motion.div
       className={cx(styles.events, "page-transition", "container")}
@@ -18,20 +18,24 @@ const Register = () => {
     >
       <header className={cx("page-header", styles["page-header"])}>
         <h1 className="heading">
-          <span>Register</span>
-          <span>Now</span>
+          <span>Promising</span>
+          <span>Benefits</span>
         </h1>
         <div className={cx(styles["header-btn-wrapper"])}></div>
         <div className={cx("subtitle", styles["header-subtitle"])}>
-          <h2>Dont</h2>
-          <div>Wait</div>
+          <h2>Offering</h2>
+          <div>Various</div>
         </div>
       </header>
       <div>
-        <img src={qr} style={{}} alt=""></img>
+        <img
+          src={benefit}
+          style={{ height: "auto", width: "1650px" }}
+          alt=""
+        ></img>
       </div>
     </motion.div>
   );
 };
 
-export default Register;
+export default Benefits;
