@@ -16,6 +16,8 @@ import Benefits from "./Benefit";
 import SupportLink from "../components/SupportLink";
 import Register from "./Register";
 
+
+
 const tags = [
   "Lectures",
   "Workshops",
